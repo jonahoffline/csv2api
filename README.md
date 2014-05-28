@@ -1,4 +1,8 @@
 # CSV2API
+[![Build Status](https://travis-ci.org/jonahoffline/csv2api.svg)](https://travis-ci.org/jonahoffline/csv2api)
+[![Gem Version](https://badge.fury.io/rb/csv2api.svg)](http://badge.fury.io/rb/csv2api)
+[![Dependency Status](https://gemnasium.com/jonahoffline/csv2api.svg)](https://gemnasium.com/jonahoffline/csv2api)
+[![Code Climate](https://codeclimate.com/github/jonahoffline/csv2api.png)](https://codeclimate.com/github/jonahoffline/csv2api)
 
 Auto-create json APIs from csv files. Instant endpoints without any hassle
 
