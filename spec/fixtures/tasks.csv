@@ -1,0 +1,251 @@
+Task,Date (start),Date (end),Duration (time),Duration (h)
+
+"Emberjs - ClientSide MVC is Not Server Side MVC, Erase your Brain",2014-04-29,2014-04-29,0:35:50,"0.6"
+"	Session",2014-04-29 21:16:08,,0:35:50,"0.6"
+
+"Don't override init",2014-04-30,2014-04-30,0:12:12,"0.2"
+"	Session",2014-04-30 00:33:41,,0:12:12,"0.2"
+
+"Controller's Needs Explained",2014-04-30,2014-04-30,0:10:44,"0.2"
+"	Session",2014-04-30 00:46:05,,0:10:44,"0.2"
+
+"Adding route specific body class tags in Ember",2014-04-30,2014-04-30,0:07:33,"0.1"
+"	Session",2014-04-30 03:27:04,,0:07:33,"0.1"
+
+"Computed Properties in Ember.Js",2014-04-30,2014-04-30,0:35:40,"0.6"
+"	Session",2014-04-30 01:09:33,,0:35:40,"0.6"
+
+"Simple Property Enum Cycling in Ember",2014-04-30,2014-04-30,0:14:32,"0.2"
+"	Session",2014-04-30 03:11:52,,0:14:32,"0.2"
+
+"A Simple Ember Data Route",2014-04-30,2014-04-30,0:12:23,"0.2"
+"	Session",2014-04-30 02:53:51,,0:12:23,"0.2"
+
+"Ember Object Self Troll",2014-04-30,2014-04-30,0:05:14,"0.1"
+"	Session",2014-04-30 01:04:07,,0:05:14,"0.1"
+
+"Observable Path Patterns in Ember",2014-04-30,2014-04-30,0:41:49,"0.7"
+"	Session",2014-04-30 04:45:43,,0:41:49,"0.7"
+
+"Ember.js Getters and Setters",2014-04-30,2014-04-30,0:27:00,"0.5"
+"	Session #1",2014-04-30 03:36:10,,0:00:48,"0"
+"	Session #2",2014-04-30 03:52:07,,0:26:12,"0.4"
+
+"ember.js - Computed Property for All Keys of an Object",2014-04-30,2014-04-30,0:12:47,"0.2"
+"	Session",2014-04-30 05:28:29,,0:12:47,"0.2"
+
+"Ember's BufferedProxy and analog to Ruby's method_missing",2014-04-30,2014-05-02,0:12:21,"0.2"
+"	Session #1",2014-04-30 06:14:03,,0:05:55,"0.1"
+"	Session #2",2014-05-02 04:02:02,,0:06:26,"0.1"
+
+"Ember and D3: Building a simple dashboard",,,,""
+
+"An Epilogue for Ember",,,,""
+
+"Magic Behind ES6 Generators",,,,""
+
+"Building an Ember app with RailsAPI - I",,,,""
+
+"Building an Ember app with RailsAPI - II",,,,""
+
+"Building an Ember app with RailsAPI - III",,,,""
+
+"Introducing Ember-EasyForm",,,,""
+
+"The problem with Server-rendered errors",2014-05-02,2014-05-02,1:03:00,"1.1"
+"	Session",2014-05-02 03:32:57,,1:03:00,"1.1"
+
+"Understanding validation graphs",,,,""
+
+"The willSetProperty gotcha in Ember-Data: Understanding the state machine",2014-04-30,2014-04-30,0:17:30,"0.3"
+"	Session",2014-04-30 05:48:18,,0:17:30,"0.3"
+
+"Ember Sparks 4: Setting up Testing",2014-05-03,2014-05-03,0:00:02,"0"
+"	Session",2014-05-03 03:26:21,,0:00:02,"0"
+
+"Ember Sparks 5: Embedding Youtube videos",,,,""
+
+"Ember Sparks 6: Intro to Ember App Kit",,,,""
+
+"Ember Sparks 7: Transferring to Ember App Kit",,,,""
+
+"Ember Sparks 8: Persistance with Ember Data and Ember App Kit",,,,""
+
+"Ember.js - Animating Deletes With the BufferedProxy",,,,""
+
+"Flatland: The Movie 1 and 2",,,,""
+
+"Rails",2014-04-30,2014-05-04,1:22:14,"1.4"
+"	Session #1",2014-04-30 11:30:14,,0:15:00,"0.3"
+"	Session #2",2014-05-01 21:51:10,,0:29:05,"0.5"
+"	Session #3",2014-05-02 19:52:40,,0:25:54,"0.4"
+"	Session #4",2014-05-04 03:55:38,,0:12:15,"0.2"
+
+"Ruby",2014-04-30,2014-05-08,1:43:00,"1.7"
+"	Session #1",2014-04-30 11:45:05,,0:00:15,"0"
+"	Session #2",2014-05-01 21:16:55,,0:23:36,"0.4"
+"	Session #3",2014-05-02 18:57:37,,0:41:51,"0.7"
+"	Session #4",2014-05-04 02:54:21,,0:30:01,"0.5"
+"	Session #5",2014-05-08 22:19:04,,0:07:17,"0.1"
+
+"JavaScript",2014-05-02,2014-05-08,0:54:08,"0.9"
+"	Session #2",2014-05-02 22:51:46,,0:20:11,"0.3"
+"	Session #3",2014-05-08 21:45:02,,0:33:57,"0.6"
+
+"How to learn any language in six months: Chris Lonsdale",2014-05-01,2014-05-01,0:31:17,"0.5"
+"	Session",2014-05-01 01:11:25,,0:31:17,"0.5"
+
+"Controllers",,,,""
+
+"Models",,,,""
+
+"Views",,,,""
+
+"Enumerables",,,,""
+
+"Testing",,,,""
+
+"Configuring Ember.js",,,,""
+
+"Cookbook",,,,""
+
+"Understanding Ember.js",,,,""
+
+"Contributing to Ember.js",,,,""
+
+"Guide Reviews",2014-05-07,2014-05-09,2:45:04,"2.8"
+"	Bindings, Reopen Classes, Handlebars helpers and attributes",2014-05-07 00:37:06,,0:32:55,"0.5"
+"	Actions and Helpers",2014-05-07 03:02:28,,2:09:52,"2.2"
+"	Query Parameters, Asynchronous Routing, Loading / Error Substates",2014-05-09 02:07:17,,0:02:17,"0"
+
+"EmberJS Ambitious Applications",2014-04-17,2014-04-23,5:50:57,"5.8"
+"	Read from the start again",2014-04-17 03:42:12,,0:20:00,"0.3"
+"	Session #2 (Chapter 1 through 8)",2014-04-17 04:19:39,,2:31:26,"2.5"
+"	Session #3 (Chapter 9)",2014-04-22 01:48:17,,0:25:00,"0.4"
+"	Session #4 (Chapter 9 complete)",2014-04-22 02:27:41,,0:25:16,"0.4"
+"	Session #5 (Chapter 10)",2014-04-22 03:24:52,,0:26:04,"0.4"
+"	Session #6 (Chapter 10.1 through 11)",2014-04-22 03:58:40,,0:25:14,"0.4"
+"	Session #7 (Chapter 11 through 11.3)",2014-04-22 04:29:50,,0:25:14,"0.4"
+"	Session #8 (Chapter 11.4 through - 12.1)",2014-04-22 05:17:08,,0:27:26,"0.5"
+"	Session #9 (Chapter 12.2)",2014-04-23 16:40:01,,0:25:17,"0.4"
+
+"""Surviving APIs with Rails"" Course",,,,""
+
+"EmberJS Testing on Rails",,,,""
+
+"Response Streams with Rails 4 and Redis",,,,""
+
+"Token-based Authentication in Rails",,,,""
+
+"Refactoring Rails Controllers",,,,""
+
+"Rails: Omniauth Github Tutorial",,,,""
+
+"Components-based Rails",,,,""
+
+"Metaprogramming Ruby 2nd Edition",,,,""
+
+"Crafting Rails 4 Applications",,,,""
+
+"Rails 4 Way",,,,""
+
+"Autopilot: The Art and Science of Doing Nothing",,,,""
+
+"Hooked: How to Build Habit-Forming Products",,,,""
+
+"An In-Depth Introduction To Ember.js",,,,""
+
+"Authentication with Ember-Rails",,,,""
+
+"Ember.js Authentication - the right way",,,,""
+
+"Ember.js Authentication - the right way (javascript version)",,,,""
+
+"Creating a Node Web App With Hapi and Twilio Integration",,,,""
+
+"Master Your Modals in Ember.js",,,,""
+
+"Model Errors in EmberJS",,,,""
+
+"Ember Controller",2014-04-29,2014-04-29,0:25:14,"0.4"
+"	Session #1",2014-04-29 20:43:46,,0:25:14,"0.4"
+
+"Components",2014-05-09,2014-05-09,1:51:48,"1.9"
+"	Introduction",2014-05-09 02:56:32,,0:03:52,"0.1"
+"	Defining a Component",2014-05-09 03:00:29,,0:11:29,"0.2"
+"	Passing Properties to a Component",2014-05-09 03:12:07,,0:35:45,"0.6"
+"	Wrapping Content In a Component",2014-05-09 04:39:26,,0:07:02,"0.1"
+"	Customizing a Component's Element",2014-05-09 04:46:41,,0:25:44,"0.4"
+"	Sending Actions from Components to Your Application",2014-05-09 05:52:12,,0:27:56,"0.5"
+
+"Routing",2014-05-07,2014-05-09,1:26:16,"1.4"
+"	Introduction",2014-05-07 03:12:56,,0:04:46,"0.1"
+"	Defining Your Routes",2014-05-07 03:17:48,,0:16:13,"0.3"
+"	Generated Objects",2014-05-07 03:43:36,,0:01:35,"0"
+"	Specifying a Route's Model",2014-05-07 03:45:18,,0:11:52,"0.2"
+"	Setting Up a Controller",2014-05-07 03:57:19,,0:08:11,"0.1"
+"	Rendering a Template",2014-05-07 04:10:51,,0:12:42,"0.2"
+"	Redirecting",2014-05-07 04:23:43,,0:14:35,"0.2"
+"	Specifying the URL Type",2014-05-07 04:38:24,,0:03:32,"0.1"
+"	Preventing and Retrying Transitions",2014-05-09 02:10:02,,0:12:50,"0.2"
+
+"Templates",2014-05-04,2014-05-04,1:29:24,"1.5"
+"	The Application Template",2014-05-04 07:38:04,,0:00:57,"0"
+"	Handlebars Basics",2014-05-04 07:39:10,,0:04:08,"0.1"
+"	Conditionals",2014-05-04 07:48:39,,0:03:24,"0.1"
+"	Displaying a List of Items",2014-05-04 07:52:18,,0:06:17,"0.1"
+"	Changing Scope",2014-05-04 07:58:44,,0:06:34,"0.1"
+"	Binding Element Attributes",2014-05-04 08:06:17,,0:10:02,"0.2"
+"	Binding Element Class Names",2014-05-04 08:16:33,,0:12:10,"0.2"
+"	Links",2014-05-04 08:29:01,,0:04:51,"0.1"
+"	Actions",2014-05-04 08:34:20,,0:10:41,"0.2"
+"	Input Helpers",2014-05-04 08:45:44,,0:03:03,"0.1"
+"	Development Helpers",2014-05-04 08:48:54,,0:01:37,"0"
+"	Rendering with Helpers",2014-05-04 08:50:36,,0:05:43,"0.1"
+"	Writing Helpers",2014-05-04 08:56:27,,0:19:57,"0.3"
+
+"Application",2014-05-04,2014-05-04,0:00:47,"0"
+"	Creating An Application",2014-05-04 07:34:35,,0:00:47,"0"
+
+"The Object Model",2014-05-04,2014-05-04,1:14:43,"1.2"
+"	Classes and Instances",2014-05-04 04:45:01,,0:08:08,"0.1"
+"	Computed Properties",2014-05-04 04:59:29,,0:14:51,"0.2"
+"	Computed Properties and Aggregate Data with @each",2014-05-04 05:14:34,,0:15:58,"0.3"
+"	Observers",2014-05-04 05:48:21,,0:17:07,"0.3"
+"	Bindings",2014-05-04 07:14:34,,0:05:44,"0.1"
+"	Reopening Classes and Instances",2014-05-04 07:20:27,,0:06:56,"0.1"
+"	Bindings, Observers, CP - What Do I Use When?",2014-05-04 07:27:37,,0:05:59,"0.1"
+
+"Concepts",2014-05-02,2014-05-04,0:30:44,"0.5"
+"	Core Concepts",2014-05-02 23:12:47,,0:04:05,"0.1"
+"	Naming Conventions",2014-05-04 04:09:47,,0:26:39,"0.4"
+
+"Ember Sparks 3: Metaprogramming with defineProperty",2014-05-03,2014-05-03,0:07:10,"0.1"
+"	Session",2014-05-03 03:19:00,,0:07:10,"0.1"
+
+"Ember Sparks 2: Switching to Ember Data",2014-05-03,2014-05-03,0:05:50,"0.1"
+"	Session",2014-05-03 03:05:09,,0:05:50,"0.1"
+
+"Ember Sparks 1: Custom Adapters for Ember Data",2014-05-03,2014-05-03,0:03:00,"0.1"
+"	Session",2014-05-03 03:00:19,,0:03:00,"0.1"
+
+"Guide #1 - Getting Started",2014-05-02,2014-05-02,0:20:00,"0.3"
+"	Session #1",2014-05-02 05:06:58,,0:20:00,"0.3"
+
+"Embermaps.com Posts",2014-05-02,2014-05-02,0:02:47,"0"
+"	Session",2014-05-02 03:34:14,,0:02:47,"0"
+
+"Prototyping an Ember.js App in 20 Minutes",2014-04-26,2014-04-26,0:42:50,"0.7"
+"	Youtube Session",2014-04-26 04:34:58,,0:42:50,"0.7"
+
+"Setting up a serious Ember project",2014-04-22,2014-04-22,0:40:51,"0.7"
+"	Session #1",2014-04-22 00:11:51,,0:40:51,"0.7"
+
+"HTMLBars: The Next-Generation of Templating in Ember.js",2014-04-19,2014-04-19,0:06:10,"0.1"
+"	Reading Session",2014-04-19 03:46:30,,0:06:10,"0.1"
+
+"A Simple Ember Data Route",2014-04-19,2014-04-19,0:03:01,"0.1"
+"	Reading Session",2014-04-19 03:39:50,,0:03:01,"0.1"
+
+"Ember: Release and Build Reusable UIs...",2014-04-19,2014-04-19,0:43:00,"0.7"
+"	Youtube Session",2014-04-19 01:03:19,,0:43:00,"0.7"

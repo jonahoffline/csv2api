@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+# @author Jonah Ruiz <jonah@pixelhipsters.com>
+# Command-line application for CSV2API
+
+Signal.trap('INT') { exit 1 }
+
+$LOAD_PATH.unshift File.dirname(__FILE__) + '/../lib/'
+require 'csv2api'
+require 'csv2api/cli'
+
+puts CSV2API::CLI.new(ARGV).parse

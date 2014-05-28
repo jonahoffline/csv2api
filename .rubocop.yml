@@ -1,0 +1,9 @@
+# Offense count: 2
+Documentation:
+  Enabled: false
+
+RegexpLiteral:
+  MaxSlashes: 0
+
+MethodLength:
+  Max: 29
