@@ -10,7 +10,7 @@ Auto-create json APIs from csv files. Instant endpoints without any hassle
 
 * Your boss/client hates you so they insist on sending you .csv files for their data.
 * You need to do a quick prototype and don't want to waste time importing / converting
-* You're bored and want to write an app with pre-historical data you found on a floppy!
+* You're bored and want to write an app with pre-historical data that you found on a floppy!
 * Your life depends on it (**Disclaimer:** *Use at your own risk, jk you should be fine!*)
 
 ## Installation
@@ -35,7 +35,7 @@ tasks.csv - http://localhost:3000/tasks
 weather.csv - http://localhost:3000/weather
 ```
 
-**Note**: Endpoints can be accessed with simple name or their .json extension.
+**Note**: Endpoints can be accessed with the filename or their .json extension.
 
 ### Load a specific folder
   $csv2api -d office_stuff/sad_csvs/
