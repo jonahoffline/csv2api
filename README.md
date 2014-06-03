@@ -5,7 +5,7 @@
 [![Code Climate](https://codeclimate.com/github/jonahoffline/csv2api.png)](https://codeclimate.com/github/jonahoffline/csv2api)
 [![Inline docs](http://inch-pages.github.io/github/jonahoffline/csv2api.png)](http://inch-pages.github.io/github/jonahoffline/csv2api)
 
-Auto-create json APIs from csv files. Instant endpoints without any hassle
+Auto-create json and xml APIs from csv files. Instant endpoints without any hassle.
 
 ## Why should I use this?
 
@@ -36,7 +36,7 @@ tasks.csv - http://localhost:3000/tasks
 weather.csv - http://localhost:3000/weather
 ```
 
-**Note**: Endpoints can be accessed with the filename or their .json extension.
+**Note**: Endpoints can be accessed with the filename or their `.json`, `.xml` extensions.
 
 ### Load a specific folder
   $csv2api -d office_stuff/sad_csvs/
