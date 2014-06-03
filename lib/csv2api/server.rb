@@ -14,25 +14,34 @@ module CSV2API
     end
 
     # Auto-creates endpoints from filenames
-    # @example
-    #   If :files contains 'tasks.csv', it will generate an endpoint like:
+    #  Endpoints will be reachable at depending on format
     #
-    #     get '/tasks' do
-    #       content_type :json
-    #       # (obvious code omitted...)
-    #       # (will only return the json version of csv)
-    #     end
+    #    JSON (the default):
+    #      http://localhost:4567/tasks
+    #      http://localhost:4567/tasks.json
     #
-    #  Endpoint will be reachable at any of the following urls:
-    #  http://localhost:4567/tasks or http://localhost:4567/tasks.json
-    #
+    #    XML:
+    #     http://localhost:4567/tasks.xml
     settings.files.each do |endpoint|
       get "/#{endpoint}.?:format?" do
-        content_type :json
+        csv_data = load_data(endpoint)
 
-        csv_file = load_csv(settings.csv_path, endpoint)
-        generate_json(CSV2API::Parser.new(csv_file).all)
+        if params[:format].eql?('xml')
+          content_type :xml
+          csv_data.to_xml(root: endpoint)
+        else
+          content_type :json
+          generate_json(csv_data)
+        end
       end
+    end
+
+    # Loads data for response
+    # @param endpoint [String] endpoint name
+    # @return [Array<Hash>] csv data
+    def load_data(endpoint)
+      csv_file = load_csv(settings.csv_path, endpoint)
+      CSV2API::Parser.new(csv_file).all
     end
   end
 end
