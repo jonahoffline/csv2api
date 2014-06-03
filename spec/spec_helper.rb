@@ -16,3 +16,11 @@ def load_fixture(csv_file)
   path = File.join(File.dirname(__FILE__), 'fixtures', "#{csv_file}.csv")
   File.read(path)
 end
+
+def json(body)
+  JSON.parse(body)
+end
+
+def xml(xml)
+  Hash.from_xml(xml)
+end
