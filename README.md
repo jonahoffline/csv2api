@@ -1,9 +1,10 @@
-# CSV2API
+# CSV2API 
 [![Build Status](https://travis-ci.org/jonahoffline/csv2api.svg)](https://travis-ci.org/jonahoffline/csv2api)
 [![Gem Version](https://badge.fury.io/rb/csv2api.svg)](http://badge.fury.io/rb/csv2api)
 [![Dependency Status](https://gemnasium.com/jonahoffline/csv2api.svg)](https://gemnasium.com/jonahoffline/csv2api)
 [![Code Climate](https://codeclimate.com/github/jonahoffline/csv2api.png)](https://codeclimate.com/github/jonahoffline/csv2api)
 [![Inline docs](http://inch-pages.github.io/github/jonahoffline/csv2api.png)](http://inch-pages.github.io/github/jonahoffline/csv2api)
+[![Gitter chat](https://badges.gitter.im/jonahoffline/csv2api.png)](https://gitter.im/jonahoffline/csv2api)
 
 Auto-create json and xml APIs from csv files. Instant endpoints without any hassle.
 
@@ -56,6 +57,11 @@ __Soon__
 
 ## Author
   * [Jonah Ruiz](http://www.pixelhipsters.com)
+
+## Discussion
+If you have any questions, ideas or a good joke:
+
+[![Gitter chat](https://badges.gitter.im/jonahoffline/csv2api.png)](https://gitter.im/jonahoffline/csv2api)
 
 ## Contributing
 
