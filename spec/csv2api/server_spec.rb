@@ -9,7 +9,7 @@ describe CSV2API::Server do
   describe '/tasks' do
     context 'when called with .json extension' do
       it 'returns tasks.csv in json' do
-        get '/tasks'
+        get '/tasks.json'
         expect(last_response.body).not_to be_empty
         expect(last_response).to be_ok
 
@@ -31,9 +31,9 @@ describe CSV2API::Server do
   end
 
   describe '/transaction' do
-    context 'when called without .json extension' do
+    context 'when called with .json extension' do
       it 'returns transaction.csv in json' do
-        get '/transaction'
+        get '/transaction.json'
         expect(last_response.body).not_to be_empty
         expect(last_response).to be_ok
 
