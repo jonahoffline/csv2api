@@ -41,7 +41,7 @@ weather.csv - http://localhost:3000/weather
 
 #### Spreadsheet View
 
-![csv2api_small](https://cloud.githubusercontent.com/assets/1783738/4006127/840daa30-29a2-11e4-81c2-249c3dc91d8c.png)
+![csv2api_small](https://cloud.githubusercontent.com/assets/1783738/4013443/4c8d1694-2a16-11e4-91da-24b1731ac802.png)
 
 ### Load a specific folder
   $csv2api -d office_stuff/sad_csvs/
