@@ -8,9 +8,14 @@ module CSV2API
   class Server < Sinatra::Base
     include CSV2API::Utils
 
+    before do
+      headers 'Access-Control-Allow-Origin'  => '*',
+              'Access-Control-Allow-Methods' => ['OPTIONS', 'GET', 'POST']
+    end
     configure do
       set :csv_path, ENV['CSV2API_ROOT']
       set :files, file_names(csv_path)
+      set :public_folder, File.dirname(__FILE__).concat('/public')
     end
 
     # Auto-creates endpoints from filenames
@@ -26,14 +31,25 @@ module CSV2API
       get "/#{endpoint}.?:format?" do
         csv_data = load_data(endpoint)
 
-        if params[:format].eql?('xml')
+        case params[:format]
+        when 'xml'
           content_type :xml
           csv_data.to_xml(root: endpoint)
-        else
+        when 'json'
           content_type :json
           generate_json(csv_data)
+        else
+          erb '', locals: {
+            endpoint: endpoint,
+            title: endpoint.titleize,
+            column_headers: sanitize_column_headers(csv_data),
+          }
         end
       end
+    end
+
+    get '/' do
+      erb :index, locals: { endpoints: settings.files }, layout: false
     end
 
     # Loads data for response
