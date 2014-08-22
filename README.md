@@ -37,7 +37,11 @@ tasks.csv - http://localhost:3000/tasks
 weather.csv - http://localhost:3000/weather
 ```
 
-**Note**: Endpoints can be accessed with the filename or their `.json`, `.xml` extensions.
+**Note**: Endpoints can be accessed with the filename (spreadsheet view) or their `.json`, `.xml` extensions.
+
+#### Spreadsheet View
+
+![csv2api_small](https://cloud.githubusercontent.com/assets/1783738/4006127/840daa30-29a2-11e4-81c2-249c3dc91d8c.png)
 
 ### Load a specific folder
   $csv2api -d office_stuff/sad_csvs/
@@ -53,7 +57,7 @@ Options:
 __Soon__
 - [ ] Load single files
 - [ ] REST Support
-- [ ] WebUI
+- [x] WebUI
 
 ## Author
   * [Jonah Ruiz](http://www.pixelhipsters.com)

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="css/normalize.css">
+
+  <title>CSV2API</title>
+</head>
+<body>
+<div class="container">
+  <h3>Available Endpoints</h3>
+
+  <ul>
+  <% endpoints.each do |endpoint| %>
+  <li>
+    <a href="/<%= endpoint %>"><%= endpoint.titleize %></a>
+    (<i><a href="/<%= endpoint %>.json">json</a>
+    <a href="/<%= endpoint %>.xml">xml</a></i>)
+  </li>
+  <% end %>
+  </ul>
+</div>
+</body>
+</html>

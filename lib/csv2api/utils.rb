@@ -42,5 +42,12 @@ module CSV2API
     def load_csv(path, filename)
       File.read("#{path}/#{filename}.csv")
     end
+
+    # Sanitizes key names for column headers
+    # @param csv [Array<Hash>] csv data
+    # @return [Array<String>] column header names
+    def sanitize_column_headers(csv)
+      csv.first.keys.map { |col| col.to_s.titleize }
+    end
   end
 end
