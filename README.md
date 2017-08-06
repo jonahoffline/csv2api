@@ -1,8 +1,9 @@
-# CSV2API 
+# CSV2API
 [![Build Status](https://travis-ci.org/jonahoffline/csv2api.svg)](https://travis-ci.org/jonahoffline/csv2api)
 [![Gem Version](https://badge.fury.io/rb/csv2api.svg)](http://badge.fury.io/rb/csv2api)
 [![Dependency Status](https://gemnasium.com/jonahoffline/csv2api.svg)](https://gemnasium.com/jonahoffline/csv2api)
 [![Code Climate](https://codeclimate.com/github/jonahoffline/csv2api.png)](https://codeclimate.com/github/jonahoffline/csv2api)
+[![security](https://hakiri.io/github/jonahoffline/csv2api/master.svg)](https://hakiri.io/github/jonahoffline/csv2api/master)
 [![Inline docs](http://inch-ci.org/github/jonahoffline/csv2api.png)](http://inch-ci.org/github/jonahoffline/csv2api)
 [![Gitter chat](https://badges.gitter.im/jonahoffline/csv2api.png)](https://gitter.im/jonahoffline/csv2api)
 

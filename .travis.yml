@@ -1,13 +1,8 @@
 language: ruby
 sudo: false
 rvm:
-  - 2.0.0
-  - 2.1.1
-  - 2.1.2
+  - 2.4.1
+  - 2.3.3
+  - 2.2.6
+  - 2.2.2
 script: bundle exec rake test
-notifications:
-  irc:
-    on_success: change
-    on_failure: always
-    channels:
-    - irc.freenode.org#rubyonadhd
